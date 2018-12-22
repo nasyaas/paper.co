@@ -6,7 +6,7 @@
       "description": "Blush and rose gold journal perfect for everyday use. ",
       "keywords": ["Blush", "Rose Gold", "Journal"],
       "image": "Greatful Journal.jpeg",
-      "price": 30.0
+      "price": 30.99
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "Blush and marble leatherbound journal set. ",
       "keywords": ["Blush", "Marble", "Journal"],
       "image": "Journal Set.jpeg",
-      "price": 45.0
+      "price": 45.99
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "description": "Marble and Rose Gold Journal. ",
       "keywords": ["Rose Gold", "Marble", "Journal"],
       "image": "Marble Journal.jpeg",
-      "price": 30.0
+      "price": 30.99
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "Rose gold thumbnail and paperclip set. 100 thumbnails and 50 paperclips. ",
       "keywords": ["Rose Gold", "Marble", "Journal"],
       "image": "Thumbnail and Paperclip Set.jpeg",
-      "price": 30.0
+      "price": 30.99
     }
   ]
 }

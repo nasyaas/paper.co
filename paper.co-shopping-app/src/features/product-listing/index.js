@@ -28,6 +28,9 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
+    loadProducts: products => {
+      dispatch({ type: "LOAD", payload: products });
+    },
     addToCart: item => {
       dispatch({ type: "ADD", payload: item });
     },

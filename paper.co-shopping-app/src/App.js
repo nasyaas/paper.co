@@ -1,20 +1,14 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
+import { connect } from "react-redux";
 import Router from "./Router";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faShoppingCart);
-
-const Navigation = props => (
+const Navigation = ({ cart }) => (
   <nav>
+    <NavLink className="navlink home" to="/">
+      <img className="logo" src={require("./paper.co.png")} alt="logo" />
+    </NavLink>
     <ul>
-      <li>
-        <NavLink className="navlink home" to="/">
-          Paper.co
-        </NavLink>
-      </li>
       <li>
         <NavLink className="navlink shop" to="/shop">
           Shop
@@ -22,8 +16,11 @@ const Navigation = props => (
       </li>
       <li>
         <NavLink className="navlink cart" to="/cart">
-          <FontAwesomeIcon icon="fa shopping-cart" />
-          My Cart
+          My Cart (
+          {cart.reduce((acc, item) => {
+            return acc + item.quantity;
+          }, 0)}
+          )
         </NavLink>
       </li>
     </ul>
@@ -34,11 +31,17 @@ class App extends Component {
   render() {
     return (
       <div className="page-container">
-        <Navigation />
+        <Navigation {...this.props} />
         <Router />
       </div>
     );
   }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    cart: state.cart
+  };
+}
+
+export default withRouter(connect(mapStateToProps)(App));
