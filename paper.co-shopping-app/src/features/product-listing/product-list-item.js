@@ -6,15 +6,17 @@ export default function ProductListItem(props) {
   return (
     <div className="product-list-item">
       <img
-        height={100}
+        className="product-img"
+        height={125}
         src={`/products/${props.product.image}`}
         alt="Product"
       />
       {/* <div>{props.product.description}</div> */}
       <h4>{props.product.name}</h4>
-      <div>${props.product.price}</div>
+      <div className="price">${props.product.price}</div>
       <div />
       <AddBtn
+        className="addBtn"
         cartItem={props.cartItem}
         product={props.product}
         addToCart={props.addToCart}

@@ -7,11 +7,11 @@ const sort = items => {
 
 function Cart(props) {
   return (
-    <table>
+    <table className="orders">
       <thread>
         <tr>
           <th>Item</th>
-          <th>Quantity</th>
+          <th />
           <th />
           <th />
         </tr>
@@ -19,15 +19,27 @@ function Cart(props) {
       <tbody>
         {sort(props.cart).map(item => (
           <tr>
+            {/* <td>{item.image}</td> */}
             <td>{item.name}</td>
             <td> {item.quantity} </td>
+            <td>${item.price}</td>
             <td>
-              <button onClick={() => props.addToCart(item)}>+</button>
+              <button className="addBtn" onClick={() => props.addToCart(item)}>
+                ADD
+              </button>
 
-              <button onClick={() => props.removeFromCart(item)}>-</button>
+              <button
+                className="removeBtn"
+                onClick={() => props.removeFromCart(item)}
+              >
+                Remove
+              </button>
             </td>
             <td>
-              <button onClick={() => props.removeAllFromCart(item)}>
+              <button
+                className="removeAll"
+                onClick={() => props.removeAllFromCart(item)}
+              >
                 Remove all from Cart
               </button>
             </td>

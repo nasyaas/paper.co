@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
+@import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
+
+.orders {
+  border: 2px #000000 solid;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 14px;
+  width: 80%;
+}
+
+.addBtn {
+  color: black;
+  background: white;
+  font-size: 11px;
+}
+
+.addBtn:hover {
+  color: #d4b8b8;
+  background: white;
+  border: none;
+}
+
+.removeBtn {
+  color: black;
+  background: white;
+  font-size: 11px;
+}
+
+.removeBtn:hover {
+  color: #d4b8b8;
+  background: white;
+  border: none;
+}
+
+.removeAll {
+  color: black;
+  background: white;
+  font-size: 11px;
+}
+
+.removeAll:hover {
+  color: #d4b8b8;
+  background: white;
+  border: none;
+}

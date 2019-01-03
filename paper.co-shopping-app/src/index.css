@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
+
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +26,7 @@ NAVIGATION
 
 nav {
   background: #ffffff;
-  padding: 10px;
+  padding: 20px;
   list-style-type: none;
   border-top: 30px solid #fcf2f1;
   border-bottom: 5px double #fcf2f1;
@@ -40,11 +42,11 @@ nav > ul > li {
 
 .logo {
   margin: 0px;
-  padding: 10px 50px;
-  padding-top: 25px;
+  padding: 5px 50px;
+  padding-top: 20px;
   float: left;
-  width: 10%;
-  height: 10%;
+  width: 12%;
+  height: 12%;
 }
 
 nav > ul > li:last-child {
@@ -56,6 +58,12 @@ nav > ul > li .navlink {
   text-decoration: none;
   color: black;
   font-size: 14px;
-  font-family: "Rajdhani", sans-serif;
-  src: url("https://fonts.googleapis.com/css?family=Rajdhani");
+  font-family: "Tenor Sans", sans-serif;
+}
+
+nav > ul > li .navlink:hover {
+  color: #d4b8b8;
+  transition: 300ms;
+  padding-left: 6px;
+  border-left: solid 1px #d4b8b8;
 }

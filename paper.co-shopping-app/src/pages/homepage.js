@@ -5,8 +5,9 @@ export default function ShopPage(props) {
   return (
     <div className="container">
       <div className="quote">
-        <h1> Text</h1>
-        <p>Sample text like a quote</p>
+        <p className="q1">don't call it a dream...</p> <br />
+        <p className="q2">call it a plan...</p>
+        <hr />
       </div>
       <img
         className="img1"

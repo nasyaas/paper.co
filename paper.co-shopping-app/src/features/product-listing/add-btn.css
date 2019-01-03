@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
+
+button {
+  background: #d4b8b8;
+  width: 100%;
+  padding: 6px;
+  margin-top: 8px;
+  box-shadow: none;
+  border: none;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+button:hover {
+  background: white;
+  border: solid 2px #d4b8b8;
+  color: #d4b8b8;
+  transition: 400ms;
+  padding: 5px;
+}

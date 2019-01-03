@@ -1,6 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
+@import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
 /* -------------
 PRODUCT PAGE
 ------------- */
+
+h3 {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.product-img {
+  padding: 10px;
+}
+
+.price {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
 
 .container2 {
   margin-left: 5%;
@@ -12,9 +37,17 @@ PRODUCT PAGE
   flex: 1;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .product-listing .product-list-item {
-  padding: 10px 55px;
-  width: 250px;
+  padding: 25px 40px;
+  width: 220px;
 }
+
+/* footer {
+  background: #fcf2f1;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+} */
