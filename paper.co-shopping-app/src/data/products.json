@@ -1,36 +1,70 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Today I am Greatful Blush Journal",
-      "description": "Blush and rose gold journal perfect for everyday use. ",
+      "id": 9,
+      "name": "Greatful White Journal",
       "keywords": ["Blush", "Rose Gold", "Journal"],
-      "image": "Greatful Journal.jpeg",
-      "price": 30.99
+      "image": "White Grateful.jpeg",
+      "price": 20.0
     },
     {
       "id": 2,
-      "name": "Blush and Marble Journal Set",
-      "description": "Blush and marble leatherbound journal set. ",
-      "keywords": ["Blush", "Marble", "Journal"],
-      "image": "Journal Set.jpeg",
-      "price": 45.99
+      "name": "Linen Notebook Set",
+      "keywords": ["Linen", "Notebook", "Grey", "Black"],
+      "image": "Linen Notebook Set.jpeg",
+      "price": 50.0
     },
     {
       "id": 3,
-      "name": "Marble and Rose Gold Journal",
-      "description": "Marble and Rose Gold Journal. ",
-      "keywords": ["Rose Gold", "Marble", "Journal"],
-      "image": "Marble Journal.jpeg",
-      "price": 30.99
+      "name": "Black and White Weekly Planner",
+      "keywords": ["Black", "White", "Weekly Planner"],
+      "image": "Black and White.jpeg",
+      "price": 50.0
     },
     {
       "id": 4,
-      "name": "Rose Gold Thumbnail and Paperclip Set",
-      "description": "Rose gold thumbnail and paperclip set. 100 thumbnails and 50 paperclips. ",
+      "name": "Thumbnail & Paperclip Set",
       "keywords": ["Rose Gold", "Marble", "Journal"],
-      "image": "Thumbnail and Paperclip Set.jpeg",
-      "price": 30.99
+      "image": "Thumbnail Set.jpeg",
+      "price": 10.0
+    },
+    {
+      "id": 5,
+      "name": "Grey and Gold Notebook",
+      "keywords": ["Grey", "Gold", "Notebook"],
+      "image": "Gold Notebook.jpeg",
+      "price": 25.0
+    },
+
+    {
+      "id": 6,
+      "name": "Blush and Marble Journal Set",
+      "keywords": ["Blush", "Marble", "Journal"],
+      "image": "Journal Set.jpeg",
+      "price": 35.0
+    },
+
+    {
+      "id": 7,
+      "name": "Minimal Planner",
+      "keywords": ["Black", "Minimal", "Planner"],
+      "image": "Simple Planner.jpeg",
+      "price": 40.0
+    },
+
+    {
+      "id": 8,
+      "name": "Gold Weekly Planner",
+      "keywords": ["Gold", "White", "Weekly Planner"],
+      "image": "Weekly Planner.jpeg",
+      "price": 20.0
+    },
+    {
+      "id": 9,
+      "name": "Greatful Blush Journal",
+      "keywords": ["Blush", "Rose Gold", "Journal"],
+      "image": "Greatful Journal.jpeg",
+      "price": 20.0
     }
   ]
 }

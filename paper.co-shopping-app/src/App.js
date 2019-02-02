@@ -10,10 +10,16 @@ const Navigation = ({ cart }) => (
     </NavLink>
     <ul>
       <li>
+        <NavLink className="navlink home" to="/">
+          Home
+        </NavLink>
+      </li>
+      <li>
         <NavLink className="navlink shop" to="/shop">
           Shop
         </NavLink>
       </li>
+
       <li>
         <NavLink className="navlink cart" to="/cart">
           My Cart (

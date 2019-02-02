@@ -21,32 +21,38 @@ code {
 }
 
 /* -------------
-NAVIGATION
+HEADER
 ------------- */
 
+.logo {
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 220px;
+  height: 40px;
+}
+
 nav {
-  background: #ffffff;
-  padding: 20px;
+  background: #fcf6f5;
+  padding: 0px;
+  padding-bottom: 60px;
+  margin-bottom: 80px;
   list-style-type: none;
-  border-top: 30px solid #fcf2f1;
-  border-bottom: 5px double #fcf2f1;
+  border-top: 60px solid #fcf6f5;
   width: 100%;
+}
+
+nav > ul {
+  text-align: center;
+  padding-left: 190px;
 }
 
 nav > ul > li {
   list-style-type: none;
-  display: inline-block;
   padding: 10px 30px;
+  display: inline;
   text-transform: uppercase;
-}
-
-.logo {
-  margin: 0px;
-  padding: 5px 50px;
-  padding-top: 20px;
-  float: left;
-  width: 12%;
-  height: 12%;
 }
 
 nav > ul > li:last-child {
@@ -62,8 +68,8 @@ nav > ul > li .navlink {
 }
 
 nav > ul > li .navlink:hover {
-  color: #d4b8b8;
+  color: #bea5a5;
   transition: 300ms;
   padding-left: 6px;
-  border-left: solid 1px #d4b8b8;
+  border-left: solid 1px #bea5a5;
 }

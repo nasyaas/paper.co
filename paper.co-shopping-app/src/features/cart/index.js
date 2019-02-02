@@ -8,44 +8,43 @@ const sort = items => {
 function Cart(props) {
   return (
     <table className="orders">
-      <thread>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th />
+        <th />
+      </tr>
+      {sort(props.cart).map(item => (
         <tr>
-          <th>Item</th>
-          <th />
-          <th />
-          <th />
-        </tr>
-      </thread>
-      <tbody>
-        {sort(props.cart).map(item => (
-          <tr>
-            {/* <td>{item.image}</td> */}
-            <td>{item.name}</td>
-            <td> {item.quantity} </td>
-            <td>${item.price}</td>
-            <td>
-              <button className="addBtn" onClick={() => props.addToCart(item)}>
-                ADD
-              </button>
+          {/* <td>
+            <img src={`/products/{item.image}`} />
+          </td> */}
+          <td>{item.name}</td>
+          <td className="quantity"> {item.quantity} </td>
+          <td className="price">${item.price}</td>
+          <td>
+            <button className="addBtn" onClick={() => props.addToCart(item)}>
+              ADD
+            </button>
 
-              <button
-                className="removeBtn"
-                onClick={() => props.removeFromCart(item)}
-              >
-                Remove
-              </button>
-            </td>
-            <td>
-              <button
-                className="removeAll"
-                onClick={() => props.removeAllFromCart(item)}
-              >
-                Remove all from Cart
-              </button>
-            </td>
-          </tr>
-        ))}
-      </tbody>
+            <button
+              className="removeBtn"
+              onClick={() => props.removeFromCart(item)}
+            >
+              Remove
+            </button>
+          </td>
+          <td>
+            <button
+              className="removeAll"
+              onClick={() => props.removeAllFromCart(item)}
+            >
+              Remove all from Cart
+            </button>
+          </td>
+        </tr>
+      ))}
     </table>
   );
 }

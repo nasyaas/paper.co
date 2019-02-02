@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
 @import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
+
 /* -------------
 PRODUCT PAGE
 ------------- */
@@ -18,7 +19,9 @@ h4 {
 }
 
 .product-img {
-  padding: 10px;
+  margin: 5%;
+  width: 90%;
+  height: 50%;
 }
 
 .price {
@@ -28,8 +31,9 @@ h4 {
 }
 
 .container2 {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  height: 1400px !important;
 }
 
 .product-listing {
@@ -41,13 +45,6 @@ h4 {
 }
 
 .product-listing .product-list-item {
-  padding: 25px 40px;
-  width: 220px;
+  padding: 50px 30px;
+  width: 25%;
 }
-
-/* footer {
-  background: #fcf2f1;
-  text-align: center;
-  width: 100%;
-  padding: 30px;
-} */

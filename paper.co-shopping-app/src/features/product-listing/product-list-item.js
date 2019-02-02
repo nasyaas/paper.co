@@ -11,7 +11,6 @@ export default function ProductListItem(props) {
         src={`/products/${props.product.image}`}
         alt="Product"
       />
-      {/* <div>{props.product.description}</div> */}
       <h4>{props.product.name}</h4>
       <div className="price">${props.product.price}</div>
       <div />

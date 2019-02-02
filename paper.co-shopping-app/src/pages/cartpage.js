@@ -6,12 +6,15 @@ import "./cartpage.css";
 
 export default function CartPage(props) {
   return (
-    <div className="container2">
-      <h2>Cartpage</h2>
-      <Cart />
-      {/* <button className="checkoutbtn" to="/checkout">
+    <div>
+      <div className="container3">
+        <h3>My Cart</h3>
+        <Cart />
+        {/* <button className="checkoutbtn" to="/checkout">
         Checkout
       </button> */}
+      </div>
+      <footer> Created by Nasya Acosta Smith </footer>
     </div>
   );
 }

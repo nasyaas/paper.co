@@ -1,11 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
 @import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
 
+.container3 {
+  margin-left: 8%;
+  margin-right: 8%;
+  height: 800px !important;
+}
+
 .orders {
-  border: 2px #000000 solid;
   font-family: "Tenor Sans", sans-serif;
   font-size: 14px;
   width: 80%;
+  margin: 0 auto;
+}
+
+.quantity {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
 }
 
 .addBtn {

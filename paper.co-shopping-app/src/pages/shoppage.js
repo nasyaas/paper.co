@@ -7,10 +7,12 @@ import data from "../data/products.json";
 
 export default function ShopPage(props) {
   return (
-    <div className="container2">
-      <h3>Shop</h3>
-      <ProductListing products={data.products} />
-      {/* <footer> Text 2018 </footer> */}
+    <div>
+      <div className="container2">
+        <h3>Shop</h3>
+        <ProductListing products={data.products} />
+      </div>
+      <footer> Created by Nasya Acosta Smith </footer>
     </div>
   );
 }

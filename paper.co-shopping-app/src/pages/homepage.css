@@ -1,100 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Tenor+Sans");
 @import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
 
-.container {
+#row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  width: 30%;
-  background-image: linear-gradient(to right, white, #e4c0c0, white);
-  margin-bottom: 60px;
-}
-
-.q1 {
-  margin-top: 60px;
-  margin-bottom: 0px;
-  margin-right: 190px;
-  padding: 0;
-  font-size: 25px;
-}
-
-.q2 {
-  margin-top: -40px;
-  padding: 0;
-  font-size: 40px;
-  margin-left: 180px;
-  margin-bottom: 0px;
-}
-
-.quote {
-  text-align: center;
-  align-content: center;
-  flex-basis: 100%;
-  font-family: "Homemade Apple", cursive;
-  padding: 0px;
-}
-
-.img1 {
-  margin: 50px;
-  margin-top: 0px;
-  padding: 10px;
+#img {
+  margin: 5%;
+  padding: 0.5%;
   width: 45%;
   height: 45%;
-  border: double 5px #d4b8b8;
-  float: left;
+  border: dashed 1px #d4b8b8;
 }
 
-.img1:hover {
-  filter: blur(2px);
-  transition: 0.5s;
-}
-
-.text {
-  margin-right: 0px;
+#text {
+  margin: 0;
+  width: 40%;
+  height: 10%;
   background: #fcf2f1;
-  padding: 20px 50px;
-  flex-basis: 560px;
-  align-self: center;
+  padding: 1% 4%;
   font-family: "Tenor Sans", sans-serif;
-}
-
-.img2 {
-  margin: 50px;
-  padding: 10px;
-  width: 45%;
-  height: 45%;
-  border: double 5px #d4b8b8;
-  float: right;
-}
-
-.img2:hover {
-  filter: blur(2px);
-  transition: 0.5s;
-}
-
-.img3 {
-  margin: 50px;
-  padding: 10px;
-  width: 45%;
-  height: 45%;
-  border: double 5px #d4b8b8;
-  float: left;
-}
-
-.img3:hover {
-  filter: blur(2px);
-  transition: 0.5s;
+  color: #000000;
 }
 
 footer {
-  background: #fcf2f1;
+  bottom: 0;
+  background: #fcf6f5;
   text-align: center;
   width: 100%;
-  padding: 30px;
+  margin-top: 8%;
+  padding: 3%;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 14px;
+  color: #5e5e5e;
 }

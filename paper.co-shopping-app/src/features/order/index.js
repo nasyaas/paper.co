@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 
-class Order extends React.Component {
-  state = {
-    order: null
-  };
-}
+// class Order extends React.Component {
+//   state = {
+//     order: null
+//   };
+// }
 
 // renderOrder() {
 //    const {name, email, order_items} = this.state.order
@@ -38,4 +38,4 @@ class Order extends React.Component {
 // }
 // }
 
-export default Order;
+// export default Order;
